@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ 
+body{
+    background-color: #f3f3f3;
+    font-family: "Arial";
+}
+
+footer{
+    background-color: #39930d;
+ }
+
+h2{
+    background-color: #39930d;
+}
+
+li{
+    font-size: 14px;
+    line-height: 2.1em;
+    text-transform: uppercase;
+    color: #343434;
+}
+
+h1, .manager{
+    color: #39930d;
+}
+
+h1{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.main{
+    background-color: #ffffff;
+}
+
+.manager{
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.football_tittle, .contacts{
+    font-size: 14px;
+    color: #5a5a5a;
+}
+
+.contacts{
+    font-weight: bold;
+    text-align: right;
+}
+
+.football_partners{
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.paragraph_1, .paragraph_2, .paragraph_3{
+    font-size: 14px;
+    line-height: 1.5em;
+    color: #343434;
+}
+
+.second_logo{
+    font-size: 14px;
+    color: #ffffff;
+}
+
