@@ -10,13 +10,18 @@ body{
 
 footer{
     background-color: #39930d;
- }
+}
+
+h1{
+    font-size: 24px;
+    font-weight: bold;
+}
 
 h2{
     background-color: #39930d;
 }
 
-li{
+.last_news, .privat_manager, .facts, .food, .tickets{
     font-size: 14px;
     line-height: 2.1em;
     text-transform: uppercase;
@@ -25,11 +30,6 @@ li{
 
 h1, .manager{
     color: #39930d;
-}
-
-h1{
-    font-size: 24px;
-    font-weight: bold;
 }
 
 .main{
@@ -41,12 +41,12 @@ h1{
     text-transform: uppercase;
 }
 
-.football_tittle, .contacts{
+.football_tittle, .graphick, .phone_number{
     font-size: 14px;
     color: #5a5a5a;
 }
 
-.contacts{
+.graphick, .phone{
     font-weight: bold;
     text-align: right;
 }
