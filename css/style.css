@@ -21,6 +21,10 @@ h2{
     background-color: #39930d;
 }
 
+footer{
+    max-width: 1200;
+}
+
 .last_news, .privat_manager, .facts, .food, .tickets{
     font-size: 14px;
     line-height: 2.1em;
@@ -34,6 +38,12 @@ h1, .manager{
 
 .main{
     background-color: #ffffff;
+}
+
+.wrapper{
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 120px;;
 }
 
 .manager{
@@ -51,6 +61,22 @@ h1, .manager{
     text-align: right;
 }
 
+.main_picture{
+    max-width: 920px;
+}
+
+.third, .second, .fourth, .fifth{
+    max-width: 225px;
+    padding-bottom: 31px;
+}
+.list{
+    min-width: 300px;
+}
+
+.main_text{
+    min-width: 594px;
+}
+
 .football_partners{
     font-size: 18px;
     text-transform: uppercase;
@@ -62,6 +88,11 @@ h1, .manager{
     font-size: 14px;
     line-height: 1.5em;
     color: #343434;
+}
+
+.inst, .facebook, .tw{
+    display: inline-block;
+    padding: 10px 0;
 }
 
 .second_logo{

@@ -8,10 +8,11 @@
 </head>
 <body>
     <div class="main">
-        <header>
+        <div class="wrapper">
+            <header>
             <div class="logo">
                 <a href="index.html"><img src="img/ball.png" alt=""></a>
-                <p class="football_tittle">футбольний</p><p class="manager"><b>Менеджер</b></p>
+                <p class="football_tittle">футбольний<b class="manager">Менеджер</b></p>
             </div>
             <div class="contacts">
                 <div class="graphick">
@@ -29,13 +30,23 @@
         <main>
             <div class="pictures">
                 <picture class="main_picture">
-                    <img src="img/picture.jpg" alt="">
+                    <source srcset="img/picture.jpg" type="image/jpg">
+                    <img src="img/mb.png" alt="">
                 </picture>
-                <br><picture class="bottom_picture">
-                    <img src="img/ball_1.jpg" alt="" class="ball_1">
-                    <img src="img/ball_2.jpg" alt="" class="ball_2">
-                    <img src="img/ball_3.jpg" alt="" class="ball_3">
-                    <img src="img/ball_4.jpg" alt="" class="ball_4">
+                <picture class="second">
+                    <sourse srcset="img/ball_1.jpg" type="image/jpg">
+                    <img src="img/b_1.png" alt="" class="ball_1">
+                </picture>
+                <picture class="third">
+                    <source srcset="img/ball_2.jpg" type="image/jpg">
+                    <img src="img/b_2.png" alt="" class="ball_2">
+                <picture class="fourth">
+                    <source srcset="img/ball_3.jpg" type="image/jpg">
+                    <img src="img/b_3.png" alt="" class="ball_3">
+                </picture>
+                <picture class="fifth">
+                    <source srcset="img/ball_4.jpg" type="image/jpg">
+                    <img src="img/b_4.png" alt="" class="ball_4">
                 </picture>
             </div>
             <div class="text">
@@ -59,18 +70,17 @@
                 </section>
             </div>
         </main>
-    </div>
-    <footer>
-        <div class="second_logo">
-            <p>© Футбольний менеджер 2018.</p>
-        </div>
-        <nav class="social_nav">
-            <ul>
-                <li><a href="#"><img src="img/inst.svg" alt=""></a></li>
-                <li><a href="#"><img src="img/facebook.svg" alt=""></a></li>
-                <li><a href="#"><img src="img/tw.svg" alt=""></a></li>
-            </ul>
-        </nav>
-    </footer>
+        <footer>
+            <div class="second_logo">
+                <p>© Футбольний менеджер 2018.</p>
+            </div>
+            <nav class="social_nav">
+                <ul>
+                    <li><a href="#" class="inst"><img src="img/inst.svg" alt=""></a></li>
+                    <li><a href="#" class="facebook"><img src="img/facebook.svg" alt=""></a></li>
+                    <li><a href="#" class="tw"><img src="img/tw.svg" alt=""></a></li>
+                </ul>
+            </nav>
+        </footer>
 </body>
 </html>
