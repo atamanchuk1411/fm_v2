@@ -4,12 +4,11 @@
 }
  
 body{
-    background-color: #f3f3f3;
     font-family: "Arial";
 }
 
-footer{
-    background-color: #39930d;
+header{
+    margin: 15px 16px;
 }
 
 h1{
@@ -22,7 +21,31 @@ h2{
 }
 
 footer{
-    max-width: 1200;
+    background-color: #39930d;
+}
+
+.bg_white{
+    background-color: #f3f3f3;
+}
+
+.no_marks{
+    list-style: none;
+    padding-left: 0;
+}
+
+.center{
+    display: flex;
+    align-items: center;
+}
+
+.right{
+    display: flex;
+    justify-content: space-between;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
 }
 
 .last_news, .privat_manager, .facts, .food, .tickets{
@@ -43,7 +66,43 @@ h1, .manager{
 .wrapper{
     max-width: 960px;
     margin: 0 auto;
-    padding: 0 120px;;
+    padding: 0 15px;
+}
+
+.logo > a{
+    margin-right: 8px;
+}
+
+.pictures{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 31px;
+}
+
+.mp{
+    margin-bottom: 10px;
+}
+
+.third, .second, .fourth, .fifth{
+    row-gap: 10px;
+}
+
+.list{
+    margin-right: 19px;
+}
+
+.main_text{
+    margin-bottom: 32px;
+}
+
+.main_text > h1{
+    margin-bottom: 17px;
+}
+
+.main_text > p{
+    margin-bottom: 15px;
 }
 
 .manager{
@@ -65,16 +124,19 @@ h1, .manager{
     max-width: 920px;
 }
 
-.third, .second, .fourth, .fifth{
-    max-width: 225px;
-    padding-bottom: 31px;
+.text{
+    max-width: 930px;
+    display: flex;
+    justify-content: center;
+    gap: 19px;
 }
-.list{
-    min-width: 300px;
+
+.football_partners{
+    padding: 13px 71px 13px 19px;
 }
 
 .main_text{
-    min-width: 594px;
+    max-width: 594px;
 }
 
 .football_partners{
@@ -98,5 +160,9 @@ h1, .manager{
 .second_logo{
     font-size: 14px;
     color: #ffffff;
+}
+
+.sn{
+    gap: 11px;
 }
 
