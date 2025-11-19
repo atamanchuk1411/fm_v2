@@ -5,6 +5,7 @@
  
 body{
     font-family: "Arial";
+    background-color: #f3f3f3;
 }
 
 header{
@@ -24,11 +25,7 @@ footer{
     background-color: #39930d;
 }
 
-.bg_white{
-    background-color: #f3f3f3;
-}
-
-.no_marks{
+ul{
     list-style: none;
     padding-left: 0;
 }
@@ -99,7 +96,7 @@ main img{
 }
 
 .text{
-    margin: 31px 0 32px;
+    padding: 31px 0 32px;
 }
 
 .no_marks{
@@ -134,7 +131,6 @@ main img{
 }
 
 .text{
-    max-width: 930px;
     display: flex;
     justify-content: center;
     gap: 19px;
