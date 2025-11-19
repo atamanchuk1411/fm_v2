@@ -9,7 +9,7 @@ body{
 }
 
 header{
-    margin: 15px 16px;
+    padding: 15px;
 }
 
 h1{
@@ -66,8 +66,12 @@ h1, .manager{
     padding: 0 15px;
 }
 
-.logo > a{
-    margin-right: 8px;
+.logo{
+    gap: 8px;
+}
+
+.contacts{
+    gap: 29px
 }
 
 .manager{
@@ -75,11 +79,11 @@ h1, .manager{
 }
 
 .graphick{
-    padding-right: 29px;
+    gap: 10px;
 }
 
-.graphick > img{
-    padding-right: 10px;
+.phone{
+    gap: 3px;
 }
 
 main img{
