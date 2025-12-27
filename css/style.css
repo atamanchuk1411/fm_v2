@@ -2,6 +2,10 @@
     margin: 0;
     padding: 0;
 }
+
+html{
+    font-size: .8px;
+}
  
 body{
     font-family: "Arial";
@@ -9,11 +13,11 @@ body{
 }
 
 header{
-    padding: 15px;
+    padding: 15rem;
 }
 
 h1{
-    font-size: 24px;
+    font-size: 24rem;
     font-weight: bold;
 }
 
@@ -46,7 +50,7 @@ ul{
 }
 
 .last_news, .privat_manager, .facts, .food, .tickets{
-    font-size: 14px;
+    font-size: 14rem;
     line-height: 2.1em;
     text-transform: uppercase;
     color: #343434;
@@ -61,17 +65,17 @@ h1, .manager{
 }
 
 .wrapper{
-    max-width: 960px;
+    max-width: 960rem;
     margin: 0 auto;
-    padding: 0 15px;
+    padding: 0 15rem;
 }
 
 .logo{
-    gap: 8px;
+    gap: 8rem;
 }
 
 .contacts{
-    gap: 29px
+    gap: 29rem;
 }
 
 .manager{
@@ -79,11 +83,11 @@ h1, .manager{
 }
 
 .graphick{
-    gap: 10px;
+    gap: 10rem;
 }
 
 .phone{
-    gap: 3px;
+    gap: 3rem;
 }
 
 main img{
@@ -91,7 +95,7 @@ main img{
 }
 
 .mp{
-    margin-bottom: 10px;
+    margin-bottom: 10rem;
 }
 
 .nmp{
@@ -99,29 +103,25 @@ main img{
     justify-content: space-between;
 }
 
-.text{
-    padding: 31px 0 32px;
-}
-
 .no_marks{
-    padding: 20px;
+    padding: 20rem;
 }
 
 .main_text > h1{
-    margin-bottom: 17px;
+    margin-bottom: 17rem;
 }
 
 .main_text > p{
-    margin-bottom: 15px;
+    margin-bottom: 15rem;
 }
 
 .manager{
-    font-size: 24px;
+    font-size: 24rem;
     text-transform: uppercase;
 }
 
 .football_tittle, .graphick, .phone_number{
-    font-size: 14px;
+    font-size: 14rem;
     color: #5a5a5a;
 }
 
@@ -131,48 +131,82 @@ main img{
 }
 
 .main_picture{
-    max-width: 920px;
+    max-width: 920rem;
 }
 
 .text{
+    padding: 31rem 0 32rem;
     display: flex;
     justify-content: center;
-    gap: 19px;
+    gap: 19rem;
 }
 
 .football_partners{
-    padding: 13px 19px;
-    min-width: 300px;
+    padding: 13rem 19rem;
+    min-width: 300rem;
 }
 
 .main_text{
-    max-width: 594px;
+    max-width: 594rem;
 }
 
 .football_partners{
-    font-size: 18px;
+    font-size: 18rem;
     text-transform: uppercase;
     color: #ffffff;
     font-weight: bold;
 }
 
 .paragraph_1, .paragraph_2, .paragraph_3{
-    font-size: 14px;
+    font-size: 14rem;
     line-height: 1.5em;
     color: #343434;
 }
 
 .inst, .facebook, .tw{
     display: inline-block;
-    padding: 10px 0;
+    padding: 10rem 0;
 }
 
 .second_logo{
-    font-size: 14px;
+    font-size: 14rem;
     color: #ffffff;
 }
 
 .sn{
-    gap: 11px;
+    gap: 11rem;
 }
 
+@media screen and (min-width: 240px) {
+    aside{
+        width: 100%;
+    }
+
+    .text{
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .text{
+        flex-wrap: nowrap;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    html {
+        font-size: 0.93px;;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    html {
+        font-size: 1.4px;
+    }
+}
+
+@media screen and (min-width: 2200px) {
+    html {
+        font-size: 2px;
+    }
+}
