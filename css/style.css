@@ -91,6 +91,11 @@ h1, .manager{
     gap: 10rem;
 }
 
+.football_ball{
+    display: flex;
+    align-items: center;
+}
+
 .phone{
     gap: 3rem;
 }
@@ -122,6 +127,10 @@ main img{
 
 .no_marks{
     padding: 20rem;
+}
+
+aside li{
+    padding-left: 20rem;
 }
 
 .main_text > h1{
@@ -177,10 +186,6 @@ main img{
 .football_partners{
     padding: 13rem 19rem;
     min-width: 300rem;
-}
-
-.main_text{
-    max-width: 594rem;
 }
 
 .football_partners{
